@@ -30,6 +30,9 @@ class Window:
 
 		c = 0
 
+		self.folowers = self.user.folowers()
+		self.foloweds = self.user.foloweds()
+
 		while True:
 			c+=1
 			if c == 2000:
